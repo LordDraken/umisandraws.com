@@ -153,6 +153,36 @@ img.commission {
     object-position: center;
 }
 
+.commissioning-text {
+    text-align: center;
+}
+
+.commissioning-text h4 {
+    font-size: 21px;
+}
+
+#terms-of-service {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+#terms-of-service h1 {
+    font-size: 36px;
+}
+
+#terms-of-service div table {
+    border: solid rgb(80, 0, 0);
+}
+
+#terms-of-service div table tr {
+    border: solid rgb(80, 0, 0);
+}
+
+#terms-of-service div table tr td {
+    border: solid rgb(80, 0, 0);
+}
+
 #footer {
     background-color: black;
     color: white;
@@ -168,7 +198,7 @@ img.commission {
     cursor: default;
   }
   
-  .hovereffect .overlay {
+.hovereffect .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -180,7 +210,7 @@ img.commission {
     filter: alpha(opacity=0);
     -webkit-transition: all 0.1s ease-out 0.5s;
     transition: all 0.1s ease-out 0.5s;
-  }
+}
   
   .hovereffect:hover .overlay {
     opacity: 1;
@@ -215,3 +245,14 @@ img.commission {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
+
+#refuse-content:hover {
+    background-color: white;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+#refuse-content:hover {
+    -webkit-transition: all 0.1s ease-out 0.5s;
+    transition: all 0.1s ease-out 0.5s;
+}
