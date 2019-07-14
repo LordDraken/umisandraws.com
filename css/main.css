@@ -167,6 +167,17 @@ img.commission {
     text-align: center;
 }
 
+#contact-me {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+#contact-me img {
+    height: 250px;
+    width: 250px;
+}
+
 #terms-of-service h1 {
     font-size: 36px;
 }
