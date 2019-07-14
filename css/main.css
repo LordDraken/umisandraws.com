@@ -153,6 +153,14 @@ img.commission {
     object-position: center;
 }
 
+.commissioning-text {
+    text-align: center;
+}
+
+.commissioning-text h4 {
+    font-size: 21px;
+}
+
 #footer {
     background-color: black;
     color: white;
