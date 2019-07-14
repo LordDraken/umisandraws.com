@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="includes/bootstrap-4.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="includes/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+        <script src="js/index.js"></script>
+        <title>Umisan</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row" id="main">
+                <!-- Spacer -->
+                <div class="col-1"></div>
+
+                <!-- Content -->
+                <div class="col-10">
+                    <div class="row top-header">
+
+                    </div>
+
+                    <!-- Title Header -->
+                    <div class="row" id="header">
+                        <div class="col-12">
+                            <ul class="nav nav-pills justify-content-center sticky-top nav-fill">
+                                <li class="nav-item nav-box">
+                                    <a class="nav-link" href="#bio">Home</a>
+                                </li>
+                                <li class="nav-item nav-box">
+                                    <a class="nav-link" href="#commissions">Commissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="col-lg-12" id="logo">
+                                        <a href="" title="Umisan Draws" rel="home">
+                                            <h1 class="site-title">Umisan Draws</h1>
+                                        </a>
+                                        <p>Maybe some writing here</p>
+                                    </div>
+                                </li>
+                                <li class="nav-item nav-box">
+                                        <a class="nav-link" href="#">Contact Me</a>
+                                </li>
+                                <li class="nav-item nav-box">
+                                        <a class="nav-link" href="#">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Collage -->
+                    <div class="row" id="collage">
+                        Area for a collage of artwork
+                    </div>
+                    
+                    <!-- Bio -->
+                    <div class="row">
+                        <div class="col-lg-12 head">
+                            About me
+                        </div>
+                    </div>
+                    <div class="row" id="bio">
+                        <div class="col-lg-4" id="umisan-img">
+                            <img class="umisan-avatar" src="includes/img/Umisan Avatar.jpg" alt="Umisan Avatar">
+                        </div>
+                        <div class="col-lg-8">
+                            Bio Here
+                        </div>
+                    </div>
+
+                    <!-- Latest Work -->
+                    <div class="row">
+                        <div class="col-lg-12 head">
+                            My Latest Work
+                        </div>
+                    </div>
+                    <div class="row" id="latest-work">
+                        <div class="col-lg-8">
+                            Latest Commission
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="commission" src="includes/img/sketch/image0.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Commissions -->
+                    <div class="row" id="commissions">
+                        <div class="col-lg-12 head">
+                            Commissions
+                        </div>
+                    </div>
+                    <div class="row" id="commissions">
+                        <div class="col-lg-4 art-box" id="sketch">
+                            <div class="overlay-container">
+                                <img class="commission" src="includes/img/sketch/sketch 1.png">
+                                <div class="img-overlay">
+                                    <div class="img-overlay-text">Sketch</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 art-box" onclick="lineArtOverlayOn()">
+                            <img class="commission" id="line-art" onclick="lineArtOverlayOn()" src="includes/img/Line Art/Line art 1.png">
+                            <div class="img-overlay" id="line-art-overlay" onclick="lineArtOverlayOff()">
+                                <div class="img-overlay-text">Sketch</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 art-box">
+                            <div class="hovereffect">
+                                <img class="commission" src="includes/img/flat/flat 1.png">
+                                <div class="overlay">
+                                    <h2>Flat Color</h2>
+                                    <p style="color:black">
+                                        $55 USD<br>
+                                        +$20 Per Additional Character<br>                                      
+                                        Comes with a plain one color background and minor airbrush for depth.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="commissions">
+                        <div class="col-lg-6 art-box">
+                            <img class="commission" src="includes/img/full color/full color 1.png">
+                        </div>
+                        <div class="col-lg-6 art-box carousel slide" data-ride="carousel">
+                            <div class="hovereffect">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img class="commission" src="includes/img/painting/painting 1.png">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img class="commission"  src="includes/img/painting/painting 2.png">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="commission"  src="includes/img/painting/painting 4.png">
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <h2>Painting</h2>
+                                    <p style="color:black">
+                                        $120 USD<br>
+                                        +$30 Per Additional Character
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="row" id="footer">
+                        This is the Footer
+                    </div>
+                </div>
+
+
+
+                <!-- Spacer -->
+                <div class="col-1"></div>
+            </div>        
+        </div>
+    </body>
+
+</html>
